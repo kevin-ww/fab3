@@ -51,6 +51,10 @@ spec:
           value: $corePeerID
         - name: CORE_PEER_ADDRESS
           value: $peerAddress
+        - name: CORE_PEER_TLS_SERVERHOSTOVERRIDE
+          value: $name
+        - name: CORE_PEER_ADDRESSAUTODETECT
+          value: "true"
         - name: CORE_PEER_GOSSIP_EXTERNALENDPOINT
           value: $peerGossip
         - name: CORE_PEER_LOCALMSPID
